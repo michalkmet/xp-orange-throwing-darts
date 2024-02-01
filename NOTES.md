@@ -26,4 +26,4 @@ Pomodoro 2:
 - ✅ DONE UAT1.4 When I pass [9] then I should see 5
 - ✅ DONE UAT1.5 When I pass [10] then I should see 5
 - ✅ DONE UAT1.6 When I pass [11] then I should see 0
-- ⚠ TODO UAT1.7 When I pass [33] then I should see 0
+- ✅ DONE UAT1.7 When I pass [33] then I should see 0
