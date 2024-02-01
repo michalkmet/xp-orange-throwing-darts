@@ -33,6 +33,6 @@ Pomodoro 2:
 
 - ✅ DONE UAT2.1 When I pass [33, 10] then I should see 5
 - ✅ DONE UAT2.2 When I pass [28, 4] then I should see 10
-- ⚠ TODO UAT2.3 When I pass [9, 4] then I should see 15
-- ⚠ TODO UAT2.4 When I pass [2, 4] then I should see 120
+- ✅ DONE UAT2.3 When I pass [9, 4] then I should see 15
+- ✅ DONE UAT2.4 When I pass [2, 4] then I should see 120
 - ⚠ TODO UAT2.5 When I pass [12, 44] then I should see 0
