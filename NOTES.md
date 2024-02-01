@@ -27,3 +27,12 @@ Pomodoro 2:
 - ✅ DONE UAT1.5 When I pass [10] then I should see 5
 - ✅ DONE UAT1.6 When I pass [11] then I should see 0
 - ✅ DONE UAT1.7 When I pass [33] then I should see 0
+
+- 🚧 IN PROGRESS User Story 2: 2 digits numbers
+  As a user, I want to see correct results for 2 digits numbers
+
+- ✅ DONE UAT2.1 When I pass [33, 10] then I should see 5
+- ⚠ TODO UAT2.2 When I pass [28, 4] then I should see 10
+- ⚠ TODO UAT2.3 When I pass [9, 4] then I should see 15
+- ⚠ TODO UAT2.4 When I pass [2, 4] then I should see 120
+- ⚠ TODO UAT2.5 When I pass [12, 44] then I should see 0
