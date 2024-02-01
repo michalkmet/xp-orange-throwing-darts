@@ -32,7 +32,7 @@ Pomodoro 2:
   As a user, I want to see correct results for 2 digits numbers
 
 - ✅ DONE UAT2.1 When I pass [33, 10] then I should see 5
-- ⚠ TODO UAT2.2 When I pass [28, 4] then I should see 10
+- ✅ DONE UAT2.2 When I pass [28, 4] then I should see 10
 - ⚠ TODO UAT2.3 When I pass [9, 4] then I should see 15
 - ⚠ TODO UAT2.4 When I pass [2, 4] then I should see 120
 - ⚠ TODO UAT2.5 When I pass [12, 44] then I should see 0

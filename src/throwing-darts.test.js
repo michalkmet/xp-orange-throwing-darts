@@ -28,4 +28,7 @@ describe('User Story 2: 2 digits numbers', () => {
   it('UAT2.1 When I pass [33, 10] then I should see 5', () => {
     expect(throwingDarts([33, 10])).toBe(5);
   });
+  it('UAT2.2 When I pass [28, 4] then I should see 10', () => {
+    expect(throwingDarts([28, 4])).toBe(10);
+  });
 });
