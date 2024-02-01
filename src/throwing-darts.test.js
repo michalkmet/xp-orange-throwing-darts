@@ -16,4 +16,7 @@ describe('User Story 1: 1 digit numbers', () => {
   it('UAT1.5 When I pass [10] then I should see 5', () => {
     expect(throwingDarts([10])).toBe(5);
   });
+  it('UAT1.6 When I pass [11] then I should see 0', () => {
+    expect(throwingDarts([11])).toBe(0);
+  });
 });
