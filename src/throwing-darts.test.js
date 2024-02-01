@@ -34,4 +34,10 @@ describe('User Story 2: 2 digits numbers', () => {
   it('UAT2.3 When I pass [9, 4] then I should see 15', () => {
     expect(throwingDarts([9, 4])).toBe(15);
   });
+  it('UAT2.4 When I pass [2, 4] then I should see 120', () => {
+    expect(throwingDarts([2, 4])).toBe(120);
+  });
+  it('UAT2.5 When I pass [12, 44] then I should see 0', () => {
+    expect(throwingDarts([12, 44])).toBe(0);
+  });
 });
