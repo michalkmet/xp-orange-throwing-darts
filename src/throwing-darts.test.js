@@ -41,3 +41,9 @@ describe('User Story 2: 2 digits numbers', () => {
     expect(throwingDarts([12, 44])).toBe(0);
   });
 });
+
+describe('User Story 3: 3+ digits numbers', () => {
+  it('UAT3.1 When I pass [1, 5, 11] then I should see 15', () => {
+    expect(throwingDarts([1, 5, 11])).toBe(15);
+  });
+});

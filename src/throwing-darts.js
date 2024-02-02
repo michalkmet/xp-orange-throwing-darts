@@ -2,11 +2,11 @@ function throwingDarts(inputArr) {
   console.log('inputArr: ', inputArr);
   let result = 0;
   let allBelowFive = true;
-  for (let i = 0; i < inputArr.length; i++) {
-    if (inputArr[i] > 4 && inputArr[i] < 11) {
+  for (const element of inputArr) {
+    if (element > 4 && element < 11) {
       result += 5;
       allBelowFive = false;
-    } else if (inputArr[i] < 5) {
+    } else if (element < 5) {
       result += 10;
     } else {
       allBelowFive = false;
