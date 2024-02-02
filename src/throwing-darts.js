@@ -13,7 +13,7 @@ function throwingDarts(inputArr) {
     }
   }
 
-  if (allBelowFive === true) {
+  if (allBelowFive === true && inputArr.length != 0) {
     result += 100;
   }
   return result;

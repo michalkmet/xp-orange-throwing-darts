@@ -52,4 +52,7 @@ describe('User Story 3: 3+ digits numbers', () => {
   it('UAT3.3 When I pass [1, 2, 3, 4] then I should see 140', () => {
     expect(throwingDarts([1, 2, 3, 4])).toBe(140);
   });
+  it('UAT3.4 When I pass [] then I should see 0', () => {
+    expect(throwingDarts([])).toBe(0);
+  });
 });
